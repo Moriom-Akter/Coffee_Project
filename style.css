@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+section {
+    padding: 35px 0;
+}
+.btn {
+    background: sandybrown;
+    color: #ccc;
+    border-radius: 0;
+}
+
+
+body {
+    background: #000;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    background: #000;
+}
+nav .nav-link {
+    color: #fff;
+}
+nav .nav-link:hover {
+    color: sandybrown;
+}
+nav .nav_icons i {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+nav .nav_icons i:hover {
+    color: sandybrown; 
+}
+/* nav end */
+.hero_section {
+    background-image: url(./Coffee-img/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+    padding-bottom: 220px;
+}
+.hero_section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #FFF;
+    text-align: left;
+
+}
+.hero_section p {
+    color: #fff;
+    text-align: left;
+    font-weight: 100;
+}
+.hero_section .btn {
+    background: sandybrown;
+    color: #ccc;
+    border-radius: 0;
+}
+.hero_section .hero_btn {
+    text-align: left;
+}
+/* hero section end */
+/* about section */
+.about_section .heading {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about_section .h {
+    height: 500px;
+}
+.about_section span {
+    color: sandybrown;
+}
+.about_section h3 {
+    color: #fff;
+}
+.about_section img {
+    width: 570px;
+    height: 400px;
+}
+.about_section .heading2 {
+    background:rgb(48, 48, 48);
+    color: #fff;
+    width: 570px;
+    height: 400px;
+    padding: 75px 10px;
+    
+}
+.about_section h4 {
+    font-size: 25px;
+}
+.about_section p {
+    font-size: 15px;
+    font-weight: 100;
+}
+/* about section end */
+/* menu section */
+.menu_section .menu {
+    text-align: center;
+    
+}
+.menu_section .menu_head {
+    padding-bottom: 25px;
+}
+.menu_section .card {
+    background: #000;
+    border: 1px solid rgb(114, 114, 114);
+    padding: 25px 8px;
+}
+.menu_section h3 {
+    color: #fff;
+}
+.menu_section h4 {
+    color: #fff;
+}
+.menu_section span {
+    color: sandybrown;
+}
+.menu_section p {
+    color: #fff;
+    font-size: 30px;
+}
+.menu_section del {
+    color: #fff;
+    font-size: 12px;
+}
+/* menu section end */
